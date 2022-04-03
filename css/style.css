@@ -1,133 +1,141 @@
-/* Fix */
+/* FIX INICIALES */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-/* End Fix */
+/* FIN FIX INICIALES */
 
-/* Initial Web Config */
-body {
+/* INICIO HEADER */
+header {
+    padding: 3px 1px 3px 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
+    position: sticky;
+}
+
+.header_logo a {
     color: white;
+    transition: all 0.1s ease-in-out;
+    font-size: 20px;
 }
 
-div {
-    padding: 10px;
+.header_logo a h1 {
+    padding-left: 20px;
 }
 
-#title {
+.header_logo a:hover{
+    color: #303332;
+}
+
+.header_menu ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.header_logo a {
     text-decoration: none;
-    color: white;
 }
 
-nav ul {
-    list-style: none;
-    position: relative;
-    padding: 15px;
-    background-color: #080808;
-}
-
-nav ul li {
-    display: inline-block;
+.header_menu ul li {
+    border-radius: 5px;
     padding: 5px;
+    list-style: none;
 }
 
-nav ul li a {
+.header_menu ul li a{
     text-decoration: none;
     color: white;
+    transition: all 0.1s ease-in-out;
 }
 
-footer{
-    padding: 1rem;
-    background-color: #080808;
+.header_menu ul li a:hover {
+    color: #303332;
 }
+/* FIND HEADER */
 
-footer a {
-    text-decoration: none;
-    color: white;
-    padding: 3px;
-}
-/* End Initial Web Config */
-
-/* Index Config */
-section.index_img {
-    text-align: center;
-}
-
-.index_mainContainer .index_img {
+/* INICIO IMG BANNER */
+.index_container .index_bannerText {
     width: 100%;
     height: 91vh;
     background-image: url("../img/img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    filter: grayscale(10%) brightness(30%);
+    filter: grayscale(10%) brightness(60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.index_mainContainer .index_img h1 {
+.index_bannerText h2 {
     font-size: 2rem;
     color: white;
-    text-transform: uppercase;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 1rem;
+    background: rgba(0, 0, 0, 0.4);
     width: 100%;
     text-align: center;
+    padding: 4rem;
+    transition: all 0.2s ease-in-out;
 }
 
-.index_mainContent p {
-    background-color: #0F0F0F;
-    padding: 5px;
+.index_bannerText h2:hover {
+    color: #303332;
 }
-/* End Index Config */
+/* FIN IMG BANNER */
 
-/* Servicios Config */
-.index_servicesContent p {
-    background-color: #0F0F0F;
-    padding: 10px;
-}
-/* End Servicios Config */
+/* INICIO MAIN */
 
-/* Productos Config */
-.index_productContent p {
-    background-color: #0F0F0F;
-    padding: 10px;
-}
-/*  End Productos Config*/
-
-/* Fundacion Config */
-.index_fundationContent p {
-    background-color: #0F0F0F;
-    padding: 10px;
-}
-/* End Fundacion Config */
-
-/* Comunidad Config */
-.index_communityContent p {
-    background-color: #0F0F0F;
-    padding: 10px;
-}
-/* End Comunidad Config */
-
-/* Nosotros Config */
-.index_aboutContent p {
-    background-color: #0F0F0F;
-    padding: 10px;
+.index_mainContent {
+    /* background-color: #0C0D0C; */
+    display: flex; 
+    justify-content: space-evenly; 
+    margin: 50px;
 }
 
-.contactForm {
-    width: 50%;
-    padding: 1rem 50% 1rem 45%;
+.index_mainContent li{
+    list-style: none;
+}
+
+.index_mainContent li a {
+    text-decoration: none;
+    color: white;
+}
+
+.index_mainContent .index_fundacion {
+    background-image: url(../img/rescate_index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-.contactForm .fieldsetForm {
-    background-color: #0D0D0D;
-    content: 10%;
+.index_mainContent .index_comunidad {
+    background-image: url(../img/colab_index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.buttonForm {
-    padding: 1rem;
+.index_mainContent .index_contacto {
+    background-image: url(../img/conversa_index.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-/* End Nosotros Config */
+
+/* FIN MAIN */
