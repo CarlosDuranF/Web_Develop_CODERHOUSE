@@ -1,0 +1,133 @@
+/* Fix */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* End Fix */
+
+/* Initial Web Config */
+body {
+    background-color: black;
+    color: white;
+}
+
+div {
+    padding: 10px;
+}
+
+#title {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    position: relative;
+    padding: 15px;
+    background-color: #080808;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    padding: 1rem;
+    background-color: #080808;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+/* End Initial Web Config */
+
+/* Index Config */
+section.index_img {
+    text-align: center;
+}
+
+.index_mainContainer .index_img {
+    width: 100%;
+    height: 91vh;
+    background-image: url("../img/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(10%) brightness(30%);
+}
+
+.index_mainContainer .index_img h1 {
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.index_mainContent p {
+    background-color: #0F0F0F;
+    padding: 5px;
+}
+/* End Index Config */
+
+/* Servicios Config */
+.index_servicesContent p {
+    background-color: #0F0F0F;
+    padding: 10px;
+}
+/* End Servicios Config */
+
+/* Productos Config */
+.index_productContent p {
+    background-color: #0F0F0F;
+    padding: 10px;
+}
+/*  End Productos Config*/
+
+/* Fundacion Config */
+.index_fundationContent p {
+    background-color: #0F0F0F;
+    padding: 10px;
+}
+/* End Fundacion Config */
+
+/* Comunidad Config */
+.index_communityContent p {
+    background-color: #0F0F0F;
+    padding: 10px;
+}
+/* End Comunidad Config */
+
+/* Nosotros Config */
+.index_aboutContent p {
+    background-color: #0F0F0F;
+    padding: 10px;
+}
+
+.contactForm {
+    width: 50%;
+    padding: 1rem 50% 1rem 45%;
+    text-align: center;
+}
+
+.contactForm .fieldsetForm {
+    background-color: #0D0D0D;
+    content: 10%;
+}
+
+.buttonForm {
+    padding: 1rem;
+}
+/* End Nosotros Config */
