@@ -147,14 +147,58 @@ header #header_menu_aboutMV ul li a:hover {
 /* FIN MAIN BANNER */
 
 /* INICIO INDEX CONTAINER CONTENT */
-.index_container_content {
-    display: flex;
-    justify-content: center;
-    background-color: #0C0D0C;
+.index_container {
+    background-color: black;
+    
 }
 
-.sectionAbout_img1 {
-    background-image: url("../img/");
+.index_container .index_container_content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    background-color: #0C0D0C;
+    padding: 6rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.index_container section.index_container_content 
+.index_section_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  100%;
+    width: 100%;
+    position: relative;
+}
+
+.index_container section.index_container_content 
+.index_section_about a{
+    color: black;
+    font-size: 20px;
+}
+
+.index_container section.index_container_content 
+.index_section_about#sectionAbout_img1 {
+    background-image: url("../img/conversa_index.PNG");
+    background-size: cover;
+    background-position: center;
+}
+
+.index_container section.index_container_content 
+.index_section_about#sectionAbout_img2 {
+    background-image: url("../img/rescate_index.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.index_container section.index_container_content 
+.index_section_about#sectionAbout_img3 {
+    background-image: url("../img/colab_index.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 /* FIN INDEX CONTAINER CONTENT */
