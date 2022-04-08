@@ -148,8 +148,15 @@ header #header_menu_aboutMV ul li a:hover {
 
 /* INICIO INDEX CONTAINER CONTENT */
 .index_container_content {
-    background-color: #181A19;
+    display: flex;
+    justify-content: center;
+    background-color: #0C0D0C;
 }
+
+.sectionAbout_img1 {
+    background-image: url("../img/");
+}
+
 /* FIN INDEX CONTAINER CONTENT */
 
 /* INICIO FOOTER */
