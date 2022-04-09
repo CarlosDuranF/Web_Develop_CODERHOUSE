@@ -300,3 +300,66 @@ footer .footer_Info h3 {
     padding: 10px 25px;
     border-radius: 10px;
 }
+/* FIN FORMULARIO */
+
+/* INICIO COMUNIDAD */
+#fundacion_gallery_grid {
+    display: grid;
+    grid-template-rows: 50px repeat(3, 1f);
+    padding: 1rem;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.img_1 {
+    grid-area: img1;
+}
+
+.img_2 {
+    grid-area: img2;
+}
+
+.img_3 {
+    grid-area: img3;
+}
+
+.img_4 {
+    grid-area: img4;
+}
+
+.fundacion_grid_img {
+    display: grid;
+    min-height: 100vh;
+    justify-content: center;
+    /* margin: 1rem; */
+    padding: 2rem;
+    /* grid-template-columns: repeat(1, 30%); */
+    /* grid-template-rows: 1fr 1fr; */
+    grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4";
+}
+
+#fundacion_gallery_grid .fundacion_grid_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .fundacion_grid_img {
+        display: grid;
+        min-height: 100vh;
+        justify-content: center;
+        /* margin: 1rem; */
+        padding: 2rem;
+        /* grid-template-columns: repeat(1, 30%); */
+        /* grid-template-rows: 1fr 1fr; */
+        grid-template-areas: 
+        "img1 img2 img3"
+        "img1 img2 img4";
+    }
+}
+/* FIN COMUNIDAD */
