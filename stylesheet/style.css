@@ -200,7 +200,6 @@ header #header_menu_aboutMV ul li a:hover {
     background-size: cover;
     background-position: center;
 }
-
 /* FIN INDEX CONTAINER CONTENT */
 
 /* INICIO FOOTER */
@@ -268,3 +267,36 @@ footer .footer_Info h3 {
 }
 /* FIN FOOTER */
 
+/* INICIO CONTACTO HTML */
+/* INICIO FORMULARIO */
+.contact_container .form_content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_container .form_content h2 {
+    text-align: center;
+    margin: 6px;
+}
+
+.contact_container .form_content input {
+    height: 2rem;
+    padding: 10px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact_container .form_content .contact_button {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact_container .form_content .contact_button button{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
