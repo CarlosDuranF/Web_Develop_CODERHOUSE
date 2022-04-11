@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MASTERVET</title>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
@@ -14,11 +18,24 @@
                 <h1>MASTERVET</h1>
             </a>
         </div>
-        <nav class="header_nav">
+        <!-- Inicio icono accion abrir menu -->
+        <label for="menu" class="header_burguerMenu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <!-- Fin icono accion abrir menu -->
+        <!-- Inicio evento para abrir y cerrar menu -->
+        <input type="checkbox" id="menu">
+        <!-- Fin evento para abrir y cerrar menu -->
+        <nav class="header_menu">
+            <!-- Inicio icono accion cierre menu -->
+            <label for="menu" class="header_closeMenu">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </label>
+            <!-- Fin icono accion cierre menu -->
             <ul>
                 <li><a href="">Productos</a></li>
                 <li><a href="">Servicios</a></li>
-                <li id="header_nav--about"><a href="">Nosotros</a>
+                <li id="header_menu--about"><a href="">Nosotros</a>
                     <ul>
                         <li><a href="">Comunidad</a></li>
                         <li><a href="">Fundación</a></li>
