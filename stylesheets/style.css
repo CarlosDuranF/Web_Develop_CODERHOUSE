@@ -7,7 +7,7 @@
   color: white;
 }
 body {
-  background-color: gray;
+  background-color: #0C0D0C;
 }
 
 /* Inicio Config header */
@@ -134,4 +134,76 @@ header #header_menu--about ul li a {
 /* Fin Media queries Header */
 /* Fin Config header */
 
+/* Inicio confi footer */
+
+/* Fin config footer */
+footer .footer_Info {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    grid-template-areas: 
+        "location contact"
+        "social contact";
+}
+
+.footer_Info .maps_location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #242625;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 0;
+    grid-area: location;
+    border-radius: 2px;
+}
+
+.footer_Info .maps_location h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer_Info .footer_socialInfo-Movil {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    grid-area: social;
+    justify-content: space-evenly;
+}
+
+.footer_Info .footer_About {
+    display: flex;
+    flex-direction: column; 
+    grid-area: contact;
+}
+
+.footer_Info .footer_socialInfo {
+    display: none;
+}
+
+.footer_Info .footer_socialInfo-Movil li {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.footer_Info .footer_socialInfo-Movil li a{
+    width: 48px;
+    height: 48px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #242625;
+    border-radius: 10px;
+}
 /* Inicio Config index.html */
