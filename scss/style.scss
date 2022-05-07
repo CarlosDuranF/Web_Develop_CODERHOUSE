@@ -1,0 +1,32 @@
+/* INICIO FIX */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #0c0d0c;
+}
+/* FIN FIX */
+
+@import "header.scss";
+
+@import "footer.scss";
+
+@import "index.scss";
+
+@import "products.scss";
+
+@import "service.scss";
+
+@import "about.scss";
+
+@import "contact.scss";
+
+@import "media-query.scss";
+
+
